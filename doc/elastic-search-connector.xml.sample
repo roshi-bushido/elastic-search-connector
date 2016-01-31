@@ -1,0 +1,12 @@
+<!-- BEGIN_INCLUDE(elastic-search:list-index) -->
+    <elastic-search:list-index config-ref=""  />
+<!-- END_INCLUDE(elastic-search:list-index) -->
+
+<!-- BEGIN_INCLUDE(elastic-search:delete-index) -->
+    <elastic-search:delete-index config-ref="" indexName="#[payload]"  />
+<!-- END_INCLUDE(elastic-search:delete-index) -->
+
+
+<!-- BEGIN_INCLUDE(elastic-search:query-index) -->
+    <elastic-search:query-index config-ref="" indexName="#[payload]"  />
+<!-- END_INCLUDE(elastic-search:query-index) -->
